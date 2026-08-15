@@ -122,7 +122,7 @@ export default function AuthForm() {
             "Your account is ready. You are now signed in.",
           );
 
-          router.push("/saved");
+          router.push("/");
           router.refresh();
           return;
         }
@@ -145,7 +145,7 @@ export default function AuthForm() {
       }
 
       form.reset();
-      router.push("/saved");
+      router.push("/");
       router.refresh();
     } catch (error) {
       setAuthError(
