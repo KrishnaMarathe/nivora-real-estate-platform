@@ -107,13 +107,26 @@ export default async function Home() {
           </div>
 
           {featuredProperties.length > 0 ? (
-            <div className="mt-12 grid gap-7 md:grid-cols-2 xl:grid-cols-3">
-              {featuredProperties.map((property) => (
-                <PropertyCard
-                  key={property.id}
-                  property={property}
-                />
-              ))}
+            <div className="relative mt-12">
+              <div className="flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 pr-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:grid md:gap-7 md:overflow-visible md:pb-0 md:pr-0 md:grid-cols-2 xl:grid-cols-3">
+                {featuredProperties.map((property) => (
+                  <div
+                    key={property.id}
+                    className="min-w-[84vw] snap-start md:min-w-0"
+                  >
+                    <PropertyCard property={property} />
+                  </div>
+                ))}
+              </div>
+
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[var(--background)] via-[var(--background)]/90 to-transparent md:hidden"
+              />
+
+              <p className="mt-1 text-xs font-semibold tracking-wide text-[var(--text-muted)] md:hidden">
+                Swipe to explore more properties →
+              </p>
             </div>
           ) : (
             <div className="mt-12 border border-[var(--border)] bg-[var(--cream)] p-10 text-center">
