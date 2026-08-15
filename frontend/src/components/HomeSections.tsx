@@ -142,12 +142,13 @@ export default function HomeSections() {
             </Link>
           </div>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
+          <div className="relative mt-12">
+            <div className="flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 pr-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:grid sm:gap-5 sm:overflow-visible sm:pb-0 sm:pr-0 sm:grid-cols-2 xl:grid-cols-4">
             {localities.map((locality) => (
               <Link
                 key={locality.name}
                 href={`/properties?locality=${encodeURIComponent(locality.name)}`}
-                className="group relative min-h-96 overflow-hidden bg-[var(--primary)]"
+                className="group relative min-h-96 min-w-[84vw] snap-start overflow-hidden bg-[var(--primary)] sm:min-w-0"
               >
                 <img
                   src={locality.image}
@@ -181,6 +182,16 @@ export default function HomeSections() {
                 </div>
               </Link>
             ))}
+            </div>
+
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-[var(--background)] via-[var(--background)]/90 to-transparent sm:hidden"
+            />
+
+            <p className="mt-1 text-xs font-semibold tracking-wide text-[var(--text-muted)] sm:hidden">
+              Swipe through neighbourhoods →
+            </p>
           </div>
         </div>
       </section>
@@ -200,11 +211,12 @@ export default function HomeSections() {
             </p>
           </div>
 
-          <ol className="relative mt-14 grid gap-5 md:grid-cols-4">
+          <div className="relative mt-14">
+            <ol className="flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 pr-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:grid md:gap-5 md:overflow-visible md:pb-0 md:pr-0 md:grid-cols-4">
             {journey.map((step, index) => (
               <li
                 key={step.number}
-                className="relative border border-[var(--border)] bg-[var(--surface)] p-7 transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+                className="relative min-w-[78vw] snap-start border border-[var(--border)] bg-[var(--surface)] p-7 transition duration-300 hover:-translate-y-1 hover:shadow-lg md:min-w-0"
               >
                 <span className="text-sm font-bold text-[var(--accent)]">
                   {step.number}
@@ -228,7 +240,13 @@ export default function HomeSections() {
                 )}
               </li>
             ))}
-          </ol>
+            </ol>
+
+            <div
+              aria-hidden="true"
+              className="pointer-events-none absolute inset-y-0 right-0 w-14 bg-gradient-to-l from-[var(--cream)] via-[var(--cream)]/90 to-transparent md:hidden"
+            />
+          </div>
 
           <div className="mt-10 text-center">
             <Link href="/how-it-works" className="primary-button">

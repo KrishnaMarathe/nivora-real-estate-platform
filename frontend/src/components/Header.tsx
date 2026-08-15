@@ -76,19 +76,19 @@ export default function Header() {
         isHeaderHidden ? "-translate-y-full" : "translate-y-0"
       }`}
     >
-      <div className="page-container flex min-h-20 items-center justify-between gap-5">
+      <div className="page-container flex min-h-16 items-center justify-between gap-2 sm:min-h-20 sm:gap-5">
         <Link
           href="/"
           onClick={closeMenu}
-          className="flex items-center gap-3"
+          className="flex shrink-0 items-center gap-2 sm:gap-3"
           aria-label="Nivora homepage"
         >
-          <span className="grid h-11 w-10 place-items-center rounded-t-full rounded-b-md bg-[var(--primary)] font-[var(--font-heading)] text-xl italic text-white">
+          <span className="grid h-10 w-9 place-items-center rounded-t-full rounded-b-md bg-[var(--primary)] font-[var(--font-heading)] text-xl italic text-white sm:h-11 sm:w-10">
             N
           </span>
 
           <span>
-            <strong className="block font-[var(--font-heading)] text-2xl leading-none font-normal text-[var(--primary)]">
+            <strong className="block font-[var(--font-heading)] text-xl leading-none font-normal text-[var(--primary)] sm:text-2xl">
               Nivora
             </strong>
 
@@ -131,7 +131,7 @@ export default function Header() {
           </Link>
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex shrink-0 items-center gap-1 sm:gap-2">
           {isAdmin && (
             <Link
               href="/admin"
@@ -161,7 +161,7 @@ export default function Header() {
           {!isAuthLoading && !isAuthenticated && (
             <Link
               href="/login"
-              className="primary-button hidden sm:inline-flex"
+              className="primary-button hidden whitespace-nowrap sm:inline-flex"
             >
               Sign in
             </Link>
@@ -212,7 +212,7 @@ export default function Header() {
             }
             aria-expanded={isMenuOpen}
             aria-controls="mobile-navigation"
-            className="grid h-11 w-11 place-items-center rounded-md border border-[var(--border)] text-xl text-[var(--primary)] lg:hidden"
+            className="grid h-10 w-10 place-items-center rounded-md border border-[var(--border)] text-xl text-[var(--primary)] sm:h-11 sm:w-11 lg:hidden"
           >
             <span aria-hidden="true">
               {isMenuOpen ? "×" : "☰"}
