@@ -1,6 +1,6 @@
-# Nivora
+# 5Crest Realty
 
-Nivora is a full-stack real-estate discovery and advisory platform for buying and renting homes, studios, and commercial properties across South Bombay, Mumbai.
+5Crest Realty is a full-stack real-estate discovery and advisory platform for buying and renting homes, studios, and commercial properties across South Bombay, Mumbai.
 
 It is designed as a professional product concept with a public property website, authenticated customer accounts, owner property submissions, lead capture, and an administrator workspace for managing inventory and enquiries.
 

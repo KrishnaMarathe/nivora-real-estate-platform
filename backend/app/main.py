@@ -17,7 +17,7 @@ settings = get_settings()
 
 app = FastAPI(
     title=settings.app_name,
-    description="Backend API for the Nivora real-estate platform.",
+    description="Backend API for the 5Crest Realty real-estate platform.",
     version="1.0.0",
 )
 

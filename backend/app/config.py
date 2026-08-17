@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    app_name: str = "Nivora API"
+    app_name: str = "5Crest Realty API"
     environment: str = "development"
     frontend_url: str = "http://localhost:3000"
 
