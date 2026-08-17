@@ -30,10 +30,14 @@ const localities = [
     image: "/images/nivora-hero-colaba.png",
   },
   {
-    name: "Worli",
-    description: "Modern towers and central connectivity",
-    image:
-      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80",
+    name: "Marine Drive",
+    description: "Iconic sea-facing residences",
+    image: "/images/nivora-hero-marine-drive.png",
+  },
+  {
+    name: "Malabar Hill",
+    description: "Private, established family addresses",
+    image: "/images/nivora-hero-fort.png",
   },
 ];
 
@@ -133,7 +137,7 @@ export default function HomeSections() {
           </div>
 
           <div className="relative mt-12">
-            <div className="flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 pr-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:grid sm:gap-5 sm:overflow-visible sm:pb-0 sm:pr-0 sm:grid-cols-2 xl:grid-cols-4">
+            <div className="flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 pr-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:grid sm:gap-5 sm:overflow-visible sm:pb-0 sm:pr-0 sm:grid-cols-2 xl:grid-cols-3">
             {localities.map((locality) => (
               <Link
                 key={locality.name}
