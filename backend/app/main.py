@@ -23,6 +23,7 @@ app = FastAPI(
 
 allowed_origins = {
     settings.frontend_url.rstrip("/"),
+    "https://5crest-realty.netlify.app",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 }
