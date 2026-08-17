@@ -49,7 +49,7 @@ export default function AboutPage() {
         className="relative overflow-hidden bg-cover bg-center py-20 text-white md:py-28"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/5crest-hero-colaba.png')",
+            "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/nivora-hero-colaba.png')",
         }}
       >
         <div className="page-container relative z-10">

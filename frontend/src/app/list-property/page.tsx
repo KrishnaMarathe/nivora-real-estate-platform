@@ -8,7 +8,7 @@ export default function ListPropertyPage() {
           className="relative overflow-hidden bg-cover bg-center py-20 text-white"
           style={{
             backgroundImage:
-              "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.65)), url('/images/5crest-hero-fort.png')",
+              "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.65)), url('/images/nivora-hero-fort.png')",
           }}
         >
           <div className="page-container relative z-10 grid gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">

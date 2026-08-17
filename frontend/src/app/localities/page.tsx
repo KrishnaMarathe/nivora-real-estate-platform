@@ -8,7 +8,7 @@ const localities = [
     description:
       "Historic architecture, waterfront living, galleries and some of Mumbai’s most recognisable addresses.",
     bestFor: "Heritage homes and waterfront living",
-    image: "/images/5crest-hero-colaba.png",
+    image: "/images/nivora-hero-colaba.png",
   },
   {
     name: "Cuffe Parade",
@@ -31,14 +31,14 @@ const localities = [
     description:
       "Iconic sea-facing residences along the Queen’s Necklace with immediate access to South Mumbai.",
     bestFor: "Sea-facing apartments",
-    image: "/images/5crest-hero-marine-drive.png",
+    image: "/images/nivora-hero-marine-drive.png",
   },
   {
     name: "Malabar Hill",
     description:
       "Green, private and established, with large family homes and some of the city’s most prestigious addresses.",
     bestFor: "Luxury family homes",
-    image: "/images/5crest-hero-fort.png",
+    image: "/images/nivora-hero-fort.png",
   },
   {
     name: "Nariman Point",
@@ -74,7 +74,7 @@ export default function LocalitiesPage() {
           className="relative overflow-hidden bg-cover bg-center py-20 text-white"
           style={{
             backgroundImage:
-              "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/5crest-hero-marine-drive.png')",
+              "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/nivora-hero-marine-drive.png')",
           }}
         >
           <div className="page-container relative z-10">

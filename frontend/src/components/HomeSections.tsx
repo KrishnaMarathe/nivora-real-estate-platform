@@ -27,17 +27,17 @@ const localities = [
   {
     name: "Colaba",
     description: "Heritage homes and waterfront living",
-    image: "/images/5crest-hero-colaba.png",
+    image: "/images/nivora-hero-colaba.png",
   },
   {
     name: "Marine Drive",
     description: "Iconic sea-facing residences",
-    image: "/images/5crest-hero-marine-drive.png",
+    image: "/images/nivora-hero-marine-drive.png",
   },
   {
     name: "Malabar Hill",
     description: "Private, established family addresses",
-    image: "/images/5crest-hero-fort.png",
+    image: "/images/nivora-hero-fort.png",
   },
   {
     name: "Worli",

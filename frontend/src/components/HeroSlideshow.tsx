@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 
 const slides = [
-  "/images/5crest-hero-marine-drive.png",
-  "/images/5crest-hero-colaba.png",
-  "/images/5crest-hero-fort.png",
+  "/images/nivora-hero-marine-drive.png",
+  "/images/nivora-hero-colaba.png",
+  "/images/nivora-hero-fort.png",
 ];
 
 export default function HeroSlideshow() {
