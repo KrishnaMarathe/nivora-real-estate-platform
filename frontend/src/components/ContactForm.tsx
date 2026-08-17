@@ -104,11 +104,11 @@ export default function ContactForm() {
         <p className="section-label mt-7">Message received</p>
 
         <h2 className="mt-4 font-[var(--font-heading)] text-4xl font-normal text-[var(--primary)]">
-          Thank you for contacting Nivora
+          Thank you for contacting 5Crest Realty
         </h2>
 
         <p className="mx-auto mt-4 max-w-xl leading-7 text-[var(--text-muted)]">
-          Your message has been securely stored for the Nivora team to review.
+          Your message has been securely stored for the 5Crest Realty team to review.
         </p>
 
         <button
@@ -260,7 +260,7 @@ export default function ContactForm() {
           />
 
           <span>
-            I agree that Nivora may use these details to respond to my
+            I agree that 5Crest Realty may use these details to respond to my
             request.
           </span>
         </label>

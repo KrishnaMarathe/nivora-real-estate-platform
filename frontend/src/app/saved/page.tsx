@@ -27,8 +27,8 @@ export default function SavedPropertiesPage() {
 
         try {
           const accountIds = await getAccountSavedIds();
-          localStorage.setItem("nivora-saved-properties", JSON.stringify(accountIds));
-          window.dispatchEvent(new Event("nivora-favourites-updated"));
+          localStorage.setItem("5crest-saved-properties", JSON.stringify(accountIds));
+          window.dispatchEvent(new Event("5crest-favourites-updated"));
         } catch {
           // Signed-out visitors continue using their local shortlist.
         }

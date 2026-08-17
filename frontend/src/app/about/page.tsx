@@ -39,7 +39,7 @@ const principles = [
 export const metadata = {
   title: "About",
   description:
-    "Learn about Nivora’s approach to property discovery and advisory services across South Bombay.",
+    "Learn about 5Crest Realty’s approach to property discovery and advisory services across South Bombay.",
 };
 
 export default function AboutPage() {
@@ -49,12 +49,12 @@ export default function AboutPage() {
         className="relative overflow-hidden bg-cover bg-center py-20 text-white md:py-28"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/nivora-hero-colaba.png')",
+            "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/5crest-hero-colaba.png')",
         }}
       >
         <div className="page-container relative z-10">
           <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
-            About Nivora
+            About 5Crest Realty
           </p>
 
           <h1 className="mt-6 max-w-5xl font-[var(--font-heading)] text-5xl leading-[1.05] font-normal md:text-7xl">
@@ -62,7 +62,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="mt-7 max-w-3xl text-lg leading-8 text-[#d0dcd7]">
-            Nivora is a full-stack property-platform concept focused on helping
+            5Crest Realty is a full-stack property-platform concept focused on helping
             customers buy and rent homes, studios and commercial spaces across
             South Bombay.
           </p>
@@ -93,7 +93,7 @@ export default function AboutPage() {
             </p>
 
             <p className="border-l-4 border-[var(--accent)] pl-6 font-[var(--font-heading)] text-2xl leading-9 text-[var(--primary)]">
-              Nivora connects property discovery with structured follow-up,
+              5Crest Realty connects property discovery with structured follow-up,
               creating one clear journey from search to closure.
             </p>
           </div>
@@ -187,7 +187,7 @@ export default function AboutPage() {
             </h2>
 
             <p className="mt-5 max-w-3xl leading-8 text-[#d0dcd7]">
-              Nivora is being developed with a Next.js and React frontend,
+              5Crest Realty is being developed with a Next.js and React frontend,
               FastAPI backend and PostgreSQL database. The current property
               records are transparent sample inventory used during development.
             </p>
@@ -205,7 +205,7 @@ export default function AboutPage() {
               href="/contact"
               className="inline-flex min-h-12 min-w-52 items-center justify-center rounded-md border border-white px-5 py-3 font-bold transition hover:bg-white hover:text-[var(--primary)]"
             >
-              Contact Nivora
+              Contact 5Crest Realty
             </Link>
           </div>
         </div>

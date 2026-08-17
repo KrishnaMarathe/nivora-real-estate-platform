@@ -183,7 +183,7 @@ export default function AdminDashboardPage() {
     <main>
       <section className="border-b border-[var(--border)] bg-[var(--cream)] py-14">
         <div className="page-container">
-          <p className="section-label">Nivora administration</p>
+          <p className="section-label">5Crest Realty administration</p>
 
           <div className="mt-4 flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
             <div>
@@ -235,7 +235,7 @@ export default function AdminDashboardPage() {
             </h2>
 
             <p className="mt-3 leading-7 text-[var(--text-muted)]">
-              Create, review, publish, edit and archive Nivora property
+              Create, review, publish, edit and archive 5Crest Realty property
               listings.
             </p>
 

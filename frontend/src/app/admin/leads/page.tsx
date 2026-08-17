@@ -129,7 +129,7 @@ export default function AdminLeadsPage() {
             Back to dashboard
           </Link>
 
-          <p className="section-label mt-10">Nivora CRM</p>
+          <p className="section-label mt-10">5Crest Realty CRM</p>
 
           <h1 className="mt-4 font-[var(--font-heading)] text-5xl font-normal text-[var(--primary)] md:text-7xl">
             Lead management

@@ -4,8 +4,8 @@ import { useMemo, useSyncExternalStore } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { removeFromAccount, saveToAccount } from "@/lib/saved-api";
 
-const STORAGE_KEY = "nivora-saved-properties";
-const UPDATE_EVENT = "nivora-favourites-updated";
+const STORAGE_KEY = "5crest-saved-properties";
+const UPDATE_EVENT = "5crest-favourites-updated";
 const EMPTY_SNAPSHOT = "[]";
 
 function subscribe(callback: () => void) {

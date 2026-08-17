@@ -9,19 +9,21 @@ export default function Footer() {
             <Link
               href="/"
               className="inline-flex items-center gap-3"
-              aria-label="Nivora homepage"
+              aria-label="5Crest Realty homepage"
             >
-              <span className="grid h-11 w-10 place-items-center rounded-t-full rounded-b-md bg-white font-[var(--font-heading)] text-xl italic text-[var(--primary)]">
-                N
-              </span>
+              <img
+                src="/images/5crest-logo.png"
+                alt="5Crest Realty"
+                className="h-12 w-12 rounded-full object-cover"
+              />
 
               <span>
                 <strong className="block font-[var(--font-heading)] text-2xl leading-none font-normal text-white">
-                  Nivora
+                  5Crest Realty
                 </strong>
 
                 <small className="mt-1 block text-[0.55rem] font-bold uppercase tracking-[0.13rem] text-[#aebdb6]">
-                  South Bombay Property Advisors
+                  Luxury Residences &amp; Off-Market Deals
                 </small>
               </span>
             </Link>
@@ -79,7 +81,7 @@ export default function Footer() {
               </Link>
 
               <Link href="/contact" className="hover:text-white">
-                Contact Nivora
+                Contact 5Crest Realty
               </Link>
             </nav>
           </div>
@@ -111,7 +113,7 @@ export default function Footer() {
 
         <div className="flex flex-col justify-between gap-5 pt-8 text-xs leading-5 text-[#82928b] md:flex-row">
           <p>
-            © {new Date().getFullYear()} Nivora. All rights reserved.
+            © {new Date().getFullYear()} 5Crest Realty. All rights reserved.
           </p>
 
           <p className="max-w-2xl md:text-right">

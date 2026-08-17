@@ -231,7 +231,7 @@ export default function OwnerPropertyForm() {
         </legend>
 
         <p className="mt-2 text-sm text-[var(--text-muted)]">
-          Provide initial information. Nivora will review it before publishing.
+          Provide initial information. 5Crest Realty will review it before publishing.
         </p>
 
         <div className="mt-7 grid gap-6 sm:grid-cols-2">
@@ -457,7 +457,7 @@ export default function OwnerPropertyForm() {
               />
 
               <span>
-                I agree that Nivora may contact me regarding this property. I
+                I agree that 5Crest Realty may contact me regarding this property. I
                 understand that submission does not guarantee publication.
               </span>
             </label>

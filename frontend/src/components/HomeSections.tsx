@@ -27,17 +27,17 @@ const localities = [
   {
     name: "Colaba",
     description: "Heritage homes and waterfront living",
-    image: "/images/nivora-hero-colaba.png",
+    image: "/images/5crest-hero-colaba.png",
   },
   {
     name: "Marine Drive",
     description: "Iconic sea-facing residences",
-    image: "/images/nivora-hero-marine-drive.png",
+    image: "/images/5crest-hero-marine-drive.png",
   },
   {
     name: "Malabar Hill",
     description: "Private, established family addresses",
-    image: "/images/nivora-hero-fort.png",
+    image: "/images/5crest-hero-fort.png",
   },
   {
     name: "Worli",
@@ -78,7 +78,7 @@ export default function HomeSections() {
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
-                The Nivora standard
+                The 5Crest Realty standard
               </p>
 
               <h2 className="mt-5 font-[var(--font-heading)] text-4xl leading-tight font-normal md:text-6xl">
@@ -206,7 +206,7 @@ export default function HomeSections() {
             </h2>
 
             <p className="mt-5 leading-7 text-[var(--text-muted)]">
-              Nivora keeps the customer journey understandable from initial
+              5Crest Realty keeps the customer journey understandable from initial
               discovery through visits and negotiation.
             </p>
           </div>
@@ -250,7 +250,7 @@ export default function HomeSections() {
 
           <div className="mt-10 text-center">
             <Link href="/how-it-works" className="primary-button">
-              See how Nivora works
+              See how 5Crest Realty works
             </Link>
           </div>
         </div>
@@ -274,7 +274,7 @@ export default function HomeSections() {
             </h2>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-[#fff0e7]">
-              Submit your property for review. Nivora organizes its
+              Submit your property for review. 5Crest Realty organizes its
               information before anything is approved for publication.
             </p>
 

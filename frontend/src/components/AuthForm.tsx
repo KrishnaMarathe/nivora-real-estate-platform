@@ -242,7 +242,7 @@ export default function AuthForm() {
         className="p-7 md:p-10"
       >
         <p className="section-label">
-          {isRegistering ? "Join Nivora" : "Welcome back"}
+          {isRegistering ? "Join 5Crest Realty" : "Welcome back"}
         </p>
 
         <h2 className="mt-4 font-[var(--font-heading)] text-4xl font-normal text-[var(--primary)]">
@@ -369,7 +369,7 @@ export default function AuthForm() {
               />
 
               <span>
-                I agree to Nivora&apos;s privacy policy and terms
+                I agree to 5Crest Realty&apos;s privacy policy and terms
                 of use.
               </span>
             </label>

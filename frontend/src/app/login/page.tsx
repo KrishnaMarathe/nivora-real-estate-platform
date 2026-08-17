@@ -13,7 +13,7 @@ export default function LoginPage() {
         <div className="flex h-full items-end p-14 text-white">
           <div className="max-w-xl">
             <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
-              Your Nivora account
+              Your 5Crest Realty account
             </p>
 
             <h1 className="mt-5 font-[var(--font-heading)] text-6xl leading-tight font-normal">
@@ -33,7 +33,7 @@ export default function LoginPage() {
           <AuthForm />
 
           <p className="mt-6 text-center text-xs leading-5 text-[var(--text-muted)]">
-            Authentication is securely provided by Supabase. Nivora never
+            Authentication is securely provided by Supabase. 5Crest Realty never
             stores your password inside its application database.
           </p>
         </div>

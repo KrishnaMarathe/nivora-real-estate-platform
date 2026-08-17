@@ -145,7 +145,7 @@ export default async function Home() {
 
           <p className="mt-8 text-xs leading-5 text-[var(--text-muted)]">
             The listings currently displayed are sample records used while
-            Nivora&apos;s live property inventory is being prepared. Prices,
+            5Crest Realty&apos;s live property inventory is being prepared. Prices,
             availability and property information are for presentation
             purposes only.
           </p>

@@ -5,8 +5,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Nivora | South Bombay Property Advisors",
-    template: "%s | Nivora",
+    default: "5Crest Realty | South Bombay Property Advisors",
+    template: "%s | 5Crest Realty",
   },
   description:
     "Discover homes, studios and commercial properties to buy or rent across South Bombay.",

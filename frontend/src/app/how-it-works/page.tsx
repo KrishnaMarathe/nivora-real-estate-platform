@@ -50,7 +50,7 @@ const ownerSteps = [
     number: "02",
     title: "Confirm authority",
     description:
-      "Nivora confirms that the submitter owns the property or is authorized to represent its owner.",
+      "5Crest Realty confirms that the submitter owns the property or is authorized to represent its owner.",
   },
   {
     number: "03",
@@ -81,7 +81,7 @@ const ownerSteps = [
 export const metadata = {
   title: "How It Works",
   description:
-    "Understand how customers and property owners use Nivora throughout the property journey.",
+    "Understand how customers and property owners use 5Crest Realty throughout the property journey.",
 };
 
 function JourneySection({
@@ -142,12 +142,12 @@ export default function HowItWorksPage() {
         className="relative overflow-hidden bg-cover bg-center py-20 text-white md:py-28"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/nivora-hero-marine-drive.png')",
+            "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/5crest-hero-marine-drive.png')",
         }}
       >
         <div className="page-container relative z-10">
           <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
-            How Nivora works
+            How 5Crest Realty works
           </p>
 
           <h1 className="mt-6 max-w-5xl font-[var(--font-heading)] text-5xl leading-[1.05] font-normal md:text-7xl">
@@ -155,7 +155,7 @@ export default function HowItWorksPage() {
           </h1>
 
           <p className="mt-7 max-w-3xl text-lg leading-8 text-[#d0dcd7]">
-            Nivora organizes property discovery and follow-up into clear,
+            5Crest Realty organizes property discovery and follow-up into clear,
             accountable workflows.
           </p>
         </div>
@@ -185,7 +185,7 @@ export default function HowItWorksPage() {
             <p className="section-label">Choose your next step</p>
 
             <h2 className="mt-5 max-w-3xl font-[var(--font-heading)] text-4xl leading-tight font-normal text-[var(--primary)] md:text-5xl">
-              Search for a property or introduce one to Nivora.
+              Search for a property or introduce one to 5Crest Realty.
             </h2>
 
             <p className="mt-5 max-w-2xl leading-7 text-[var(--text-muted)]">

@@ -79,7 +79,7 @@ export default async function VisitPage({
             </ul>
 
             <p className="mt-8 bg-[var(--cream)] p-4 text-xs leading-5 text-[var(--text-muted)]">
-              A submitted request is not a confirmed appointment. Nivora
+              A submitted request is not a confirmed appointment. 5Crest Realty
               will contact you to confirm the final date and time.
             </p>
           </aside>

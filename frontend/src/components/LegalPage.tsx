@@ -82,7 +82,7 @@ export default function LegalPage({
         <div className="page-container">
           <p className="text-sm leading-7 text-[var(--text-muted)]">
             These are development-stage policy documents and must be reviewed
-            by qualified legal counsel before Nivora accepts real customers or
+            by qualified legal counsel before 5Crest Realty accepts real customers or
             property transactions.
           </p>
         </div>

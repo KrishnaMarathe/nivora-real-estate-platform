@@ -194,7 +194,7 @@ export default function PropertyResults({
             </p>
 
             <p className="text-xs text-[var(--text-muted)]">
-              Sample inventory loaded from the Nivora database
+              Sample inventory loaded from the 5Crest Realty database
             </p>
           </div>
 

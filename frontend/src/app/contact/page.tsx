@@ -3,7 +3,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata = {
   title: "Contact",
   description:
-    "Contact Nivora about buying, renting, listing or correcting property information.",
+    "Contact 5Crest Realty about buying, renting, listing or correcting property information.",
 };
 
 export default function ContactPage() {
@@ -13,12 +13,12 @@ export default function ContactPage() {
         className="relative overflow-hidden bg-cover bg-center py-20 text-white"
         style={{
           backgroundImage:
-            "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/nivora-hero-fort.png')",
+            "linear-gradient(90deg, rgba(16,40,38,0.96), rgba(16,40,38,0.62)), url('/images/5crest-hero-fort.png')",
         }}
       >
         <div className="page-container relative z-10">
           <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
-            Contact Nivora
+            Contact 5Crest Realty
           </p>
 
           <h1 className="mt-5 max-w-4xl font-[var(--font-heading)] text-5xl leading-tight font-normal md:text-7xl">

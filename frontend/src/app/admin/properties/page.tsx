@@ -213,7 +213,7 @@ export default function AdminPropertiesPage() {
           </Link>
 
           <p className="section-label mt-10">
-            Nivora inventory
+            5Crest Realty inventory
           </p>
 
           <h1 className="mt-4 font-[var(--font-heading)] text-5xl font-normal text-[var(--primary)] md:text-7xl">
@@ -222,7 +222,7 @@ export default function AdminPropertiesPage() {
 
           <p className="mt-5 max-w-2xl leading-7 text-[var(--text-muted)]">
             Create property records and control which listings appear on the
-            public Nivora website.
+            public 5Crest Realty website.
           </p>
         </div>
       </section>

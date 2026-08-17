@@ -81,19 +81,21 @@ export default function Header() {
           href="/"
           onClick={closeMenu}
           className="flex shrink-0 items-center gap-2 sm:gap-3"
-          aria-label="Nivora homepage"
+          aria-label="5Crest Realty homepage"
         >
-          <span className="grid h-10 w-9 place-items-center rounded-t-full rounded-b-md bg-[var(--primary)] font-[var(--font-heading)] text-xl italic text-white sm:h-11 sm:w-10">
-            N
-          </span>
+          <img
+            src="/images/5crest-logo.png"
+            alt="5Crest Realty"
+            className="h-11 w-11 rounded-full object-cover sm:h-12 sm:w-12"
+          />
 
           <span>
             <strong className="block font-[var(--font-heading)] text-xl leading-none font-normal text-[var(--primary)] sm:text-2xl">
-              Nivora
+              5Crest Realty
             </strong>
 
             <small className="mt-1 hidden text-[0.55rem] font-bold uppercase tracking-[0.13rem] text-[var(--text-muted)] sm:block">
-              South Bombay Property Advisors
+              Luxury Residences &amp; Off-Market Deals
             </small>
           </span>
         </Link>

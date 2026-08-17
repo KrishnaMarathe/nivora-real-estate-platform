@@ -159,7 +159,7 @@ export default function LeadForm({
         </h2>
 
         <p className="mx-auto mt-4 max-w-xl leading-7 text-[var(--text-muted)]">
-          Your request has been securely stored. A Nivora property advisor
+          Your request has been securely stored. A 5Crest Realty property advisor
           can now review it and contact you about the next step.
         </p>
 
@@ -361,7 +361,7 @@ export default function LeadForm({
           />
 
           <span>
-            I agree that Nivora may contact me about this request. I
+            I agree that 5Crest Realty may contact me about this request. I
             understand that submitting this form does not create a financial
             agreement.
           </span>

@@ -27,7 +27,7 @@ export default async function PropertiesPage() {
 
           <p className="mx-auto mt-5 max-w-xl text-[var(--text-muted)]">
             The property service is temporarily unavailable. Please ensure
-            the Nivora backend is running and try again.
+            the 5Crest Realty backend is running and try again.
           </p>
 
           <Link

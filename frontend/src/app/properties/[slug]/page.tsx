@@ -216,7 +216,7 @@ export default async function PropertyPage({
           <p className="section-label">Your property advisor</p>
 
           <h2 className="mt-4 font-[var(--font-heading)] text-3xl font-normal text-[var(--primary)]">
-            Nivora Property Team
+            5Crest Realty Property Team
           </h2>
 
           <p className="mt-2 text-sm leading-6 text-[var(--text-muted)]">
@@ -247,7 +247,7 @@ export default async function PropertyPage({
           </Link>
 
           <p className="mt-5 text-xs leading-5 text-[var(--text-muted)]">
-            Nivora does not request property payments through this website.
+            5Crest Realty does not request property payments through this website.
           </p>
         </aside>
       </section>

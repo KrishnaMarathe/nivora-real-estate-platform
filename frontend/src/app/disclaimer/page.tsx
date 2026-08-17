@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 export const metadata = {
   title: "Property Disclaimer",
   description:
-    "Read important information about listings, prices, availability and property verification on Nivora.",
+    "Read important information about listings, prices, availability and property verification on 5Crest Realty.",
 };
 
 const sections = [
@@ -11,7 +11,7 @@ const sections = [
     title: "Sample inventory",
     content: (
       <p>
-        Properties currently displayed on Nivora are sample records used for
+        Properties currently displayed on 5Crest Realty are sample records used for
         development and presentation. They must not be treated as active offers
         or genuine transaction opportunities.
       </p>
@@ -22,7 +22,7 @@ const sections = [
     content: (
       <p>
         In a production service, information may be provided by owners, agents,
-        developers or public sources. Nivora should review information but
+        developers or public sources. 5Crest Realty should review information but
         cannot replace independent physical, financial, technical and legal due
         diligence.
       </p>

@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 export const metadata = {
   title: "Privacy Policy",
   description:
-    "Read how Nivora proposes to collect, use and protect personal information.",
+    "Read how 5Crest Realty proposes to collect, use and protect personal information.",
 };
 
 const sections = [
@@ -12,7 +12,7 @@ const sections = [
     content: (
       <>
         <p>
-          Nivora may collect contact information such as your name, email
+          5Crest Realty may collect contact information such as your name, email
           address and mobile number when you create an account or submit a
           property-related request.
         </p>
@@ -47,7 +47,7 @@ const sections = [
     content: (
       <>
         <p>
-          Nivora should share personal information only where necessary to
+          5Crest Realty should share personal information only where necessary to
           provide an authorized service, comply with law, prevent misuse or
           coordinate an approved property transaction.
         </p>
@@ -70,7 +70,7 @@ const sections = [
         </p>
 
         <p>
-          No internet service can promise absolute security. Nivora must
+          No internet service can promise absolute security. 5Crest Realty must
           maintain monitoring, backup and incident-response procedures before
           handling real customer information.
         </p>
@@ -119,7 +119,7 @@ export default function PrivacyPage() {
     <LegalPage
       label="Legal information"
       title="Privacy policy"
-      introduction="This development-stage policy explains Nivora’s proposed approach to personal information."
+      introduction="This development-stage policy explains 5Crest Realty’s proposed approach to personal information."
       updatedDate="13 August 2026"
       sections={sections}
     />

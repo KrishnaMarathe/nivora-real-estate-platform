@@ -31,7 +31,7 @@ export default async function EnquiryPage({
             Return to property
           </Link>
 
-          <p className="section-label mt-10">Speak with Nivora</p>
+          <p className="section-label mt-10">Speak with 5Crest Realty</p>
 
           <h1 className="mt-4 max-w-4xl font-[var(--font-heading)] text-5xl leading-tight font-normal text-[var(--primary)] md:text-7xl">
             Ask about this property

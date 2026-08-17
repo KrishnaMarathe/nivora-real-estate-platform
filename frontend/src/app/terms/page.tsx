@@ -2,12 +2,12 @@ import LegalPage from "@/components/LegalPage";
 
 export const metadata = {
   title: "Terms of Use",
-  description: "Read the proposed terms governing use of Nivora.",
+  description: "Read the proposed terms governing use of 5Crest Realty.",
 };
 
 const sections = [
   {
-    title: "Using Nivora",
+    title: "Using 5Crest Realty",
     content: (
       <p>
         Users must provide accurate information, use the platform lawfully and
@@ -20,7 +20,7 @@ const sections = [
     content: (
       <p>
         Users are responsible for maintaining the confidentiality of their
-        account access. Nivora may restrict accounts associated with abuse,
+        account access. 5Crest Realty may restrict accounts associated with abuse,
         unauthorized activity or false information.
       </p>
     ),
@@ -70,7 +70,7 @@ const sections = [
     content: (
       <p>
         Features may be changed, suspended or unavailable during maintenance.
-        Nivora cannot guarantee that every property remains available or that
+        5Crest Realty cannot guarantee that every property remains available or that
         every enquiry results in a transaction.
       </p>
     ),
@@ -97,7 +97,7 @@ export default function TermsPage() {
     <LegalPage
       label="Legal information"
       title="Terms of use"
-      introduction="These development-stage terms describe the proposed rules for using the Nivora platform."
+      introduction="These development-stage terms describe the proposed rules for using the 5Crest Realty platform."
       updatedDate="13 August 2026"
       sections={sections}
     />
