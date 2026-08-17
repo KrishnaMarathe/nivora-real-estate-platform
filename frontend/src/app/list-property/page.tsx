@@ -13,7 +13,7 @@ export default function ListPropertyPage() {
         >
           <div className="page-container relative z-10 grid gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
+              <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#d6b06a]">
                 For property owners
               </p>
 

@@ -12,7 +12,7 @@ export default function LoginPage() {
       >
         <div className="flex h-full items-end p-14 text-white">
           <div className="max-w-xl">
-            <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
+            <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#d6b06a]">
               Your 5Crest Realty account
             </p>
 

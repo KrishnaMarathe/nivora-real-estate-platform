@@ -5,8 +5,8 @@
   --surface: #ffffff;
   --primary: #102826;
   --primary-light: #1d3b38;
-  --accent: #b96840;
-  --accent-dark: #925033;
+  --accent: #b9944e;
+  --accent-dark: #8c6b2f;
   --text: #172522;
   --text-muted: #66736e;
   --border: #ddd8cd;
@@ -106,7 +106,7 @@ img {
   border-color: var(--accent-dark);
   background: var(--accent-dark);
   transform: translateY(-2px);
-  box-shadow: 0 10px 24px rgba(146, 80, 51, 0.2);
+  box-shadow: 0 10px 24px rgba(140, 107, 47, 0.2);
 }
 
 .primary-button:focus-visible,
@@ -115,7 +115,7 @@ a:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid rgba(185, 104, 64, 0.3);
+  outline: 3px solid rgba(185, 148, 78, 0.3);
   outline-offset: 3px;
 }
 
@@ -138,7 +138,7 @@ input:focus,
 select:focus,
 textarea:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 4px rgba(185, 104, 64, 0.1);
+  box-shadow: 0 0 0 4px rgba(185, 148, 78, 0.1);
 }
 
 .page-enter {

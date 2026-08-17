@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h2 className="text-xs font-bold uppercase tracking-[0.14rem] text-[#e8a17d]">
+            <h2 className="text-xs font-bold uppercase tracking-[0.14rem] text-[#d6b06a]">
               Explore
             </h2>
 
@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h2 className="text-xs font-bold uppercase tracking-[0.14rem] text-[#e8a17d]">
+            <h2 className="text-xs font-bold uppercase tracking-[0.14rem] text-[#d6b06a]">
               Owners
             </h2>
 
@@ -87,7 +87,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <h2 className="text-xs font-bold uppercase tracking-[0.14rem] text-[#e8a17d]">
+            <h2 className="text-xs font-bold uppercase tracking-[0.14rem] text-[#d6b06a]">
               Company
             </h2>
 

@@ -43,7 +43,7 @@ export default function HeroSlideshow() {
             key={slide}
             className={`h-1 rounded-full transition-all duration-500 ${
               index === activeSlide
-                ? "w-10 bg-[#efb08d]"
+                ? "w-10 bg-[#d6b06a]"
                 : "w-4 bg-white/50"
             }`}
           />

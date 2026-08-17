@@ -30,7 +30,7 @@ export default async function Home() {
 
         <div className="page-container relative z-10 flex min-h-[680px] flex-col justify-center py-20">
           <div className="max-w-4xl reveal-up">
-            <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
+            <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#d6b06a]">
               Homes with context, not clutter
             </p>
 
@@ -38,7 +38,7 @@ export default async function Home() {
               Find your place
               <br />
               in{" "}
-              <span className="italic text-[#efb08d]">
+              <span className="italic text-[#d6b06a]">
                 South Bombay.
               </span>
             </h1>

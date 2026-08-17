@@ -30,16 +30,6 @@ const localities = [
     image: "/images/nivora-hero-colaba.png",
   },
   {
-    name: "Marine Drive",
-    description: "Iconic sea-facing residences",
-    image: "/images/nivora-hero-marine-drive.png",
-  },
-  {
-    name: "Malabar Hill",
-    description: "Private, established family addresses",
-    image: "/images/nivora-hero-fort.png",
-  },
-  {
     name: "Worli",
     description: "Modern towers and central connectivity",
     image:
@@ -77,7 +67,7 @@ export default function HomeSections() {
         <div className="page-container">
           <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-24">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
+              <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#d6b06a]">
                 The 5Crest Realty standard
               </p>
 
@@ -99,7 +89,7 @@ export default function HomeSections() {
                   key={principle.number}
                   className="border-t border-white/30 pt-6 transition duration-300 hover:-translate-y-1"
                 >
-                  <span className="text-sm font-bold text-[#e8a17d]">
+                  <span className="text-sm font-bold text-[#d6b06a]">
                     {principle.number}
                   </span>
 
@@ -163,7 +153,7 @@ export default function HomeSections() {
                 />
 
                 <div className="absolute inset-x-0 bottom-0 p-6 text-white">
-                  <p className="text-xs font-bold uppercase tracking-wider text-[#efb08d]">
+                  <p className="text-xs font-bold uppercase tracking-wider text-[#d6b06a]">
                     {locality.description}
                   </p>
 
@@ -265,7 +255,7 @@ export default function HomeSections() {
       >
         <div className="page-container">
           <div className="max-w-3xl">
-            <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#ffe0ca]">
+            <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#f2dfad]">
               For property owners
             </p>
 

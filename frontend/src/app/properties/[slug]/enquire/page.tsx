@@ -54,13 +54,13 @@ export default async function EnquiryPage({
           />
 
           <aside className="h-max bg-[var(--primary)] p-8 text-white">
-            <p className="text-xs font-bold uppercase tracking-[0.14rem] text-[#e8a17d]">
+            <p className="text-xs font-bold uppercase tracking-[0.14rem] text-[#d6b06a]">
               What happens next?
             </p>
 
             <ol className="mt-7 space-y-7">
               <li className="flex gap-4">
-                <span className="text-[#e8a17d]">01</span>
+                <span className="text-[#d6b06a]">01</span>
 
                 <div>
                   <h2 className="font-[var(--font-heading)] text-xl">
@@ -74,7 +74,7 @@ export default async function EnquiryPage({
               </li>
 
               <li className="flex gap-4">
-                <span className="text-[#e8a17d]">02</span>
+                <span className="text-[#d6b06a]">02</span>
 
                 <div>
                   <h2 className="font-[var(--font-heading)] text-xl">
@@ -88,7 +88,7 @@ export default async function EnquiryPage({
               </li>
 
               <li className="flex gap-4">
-                <span className="text-[#e8a17d]">03</span>
+                <span className="text-[#d6b06a]">03</span>
 
                 <div>
                   <h2 className="font-[var(--font-heading)] text-xl">

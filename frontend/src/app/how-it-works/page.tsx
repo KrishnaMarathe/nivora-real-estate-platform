@@ -146,7 +146,7 @@ export default function HowItWorksPage() {
         }}
       >
         <div className="page-container relative z-10">
-          <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
+          <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#d6b06a]">
             How 5Crest Realty works
           </p>
 

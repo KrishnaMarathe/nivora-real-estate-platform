@@ -53,7 +53,7 @@ export default function AboutPage() {
         }}
       >
         <div className="page-container relative z-10">
-          <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
+          <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#d6b06a]">
             About 5Crest Realty
           </p>
 
@@ -178,7 +178,7 @@ export default function AboutPage() {
       <section className="bg-[var(--primary)] py-20 text-white">
         <div className="page-container grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#e8a17d]">
+            <p className="text-xs font-bold uppercase tracking-[0.18rem] text-[#d6b06a]">
               Project development
             </p>
 
